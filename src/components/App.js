@@ -12,7 +12,7 @@ const App = () => {
 
 	const onResetClick = () => {
 		setPlayers(INIT_STATE);
-		setGame(!game);
+		setGame(true);
 	};
 
 	const onRollClick = () => {
